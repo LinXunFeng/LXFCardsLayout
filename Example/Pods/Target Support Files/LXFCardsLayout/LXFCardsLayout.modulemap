@@ -1,0 +1,6 @@
+framework module LXFCardsLayout {
+  umbrella header "LXFCardsLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

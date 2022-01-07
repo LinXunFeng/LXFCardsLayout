@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1087443E098D0471000CB3DDEF9E776A /* LXFCardsLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D1600E6E8A198AC73D0BCE55EE9218 /* LXFCardsLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2167B1A3ED389F7A592ECB14F7E90C30 /* LXFCardsLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CDB15CF9BF24F38C95CD9990C8CAEC /* LXFCardsLayout-dummy.m */; };
+		7F541453372BF04F6BB47ED6D4524E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8F170ABD1F0C4637EC1391AF4679C5B6 /* Pods-LXFCardsLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F5D9154B1882F49DC6802FBB9B9D1C /* Pods-LXFCardsLayout_Tests-dummy.m */; };
+		92469FA15871B136AA8EF62D06231559 /* Pods-LXFCardsLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F77F867AC08F3D4E9456B8C53A9F0CE6 /* Pods-LXFCardsLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD49663F2067274D3D350364F787A1AB /* LXFCardsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2DDCD443EAC74EEA6E52C3F6BB3A48 /* LXFCardsLayout.swift */; };
+		DA05C6F6524C73DFE1344E96D0187DC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E2BB07D34DF28219B4B29EF658715B99 /* Pods-LXFCardsLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C84514CCAB472C1B8266B6FB973F573C /* Pods-LXFCardsLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44A4FAEA2ADDF12C7B0D851DB34352F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FA47A70B32A20510B6D35DCCA270C0E4 /* Pods-LXFCardsLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE05413BF6A1BCA50855F1096836D74F /* Pods-LXFCardsLayout_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27E443928EDBE3392EAD4AE30A5D5737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE00099E62DF6E6A05ABBE1B4B0CCA4D;
+			remoteInfo = LXFCardsLayout;
+		};
+		F060B8407022ABEF1D8CCE5F897AD6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE71E4699367A59EF09821F57C4DCAC0;
+			remoteInfo = "Pods-LXFCardsLayout_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FC0D13FA3E7015A741C2EE689AA725F /* LXFCardsLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXFCardsLayout; path = LXFCardsLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1053290FF8EC1231E0D55ABC0C6AA6F7 /* Pods-LXFCardsLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXFCardsLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1666290AA93E3EA4580DB1B29D426808 /* Pods-LXFCardsLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXFCardsLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E111CA3285E2BFE9C2BA62900A629DB /* LXFCardsLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXFCardsLayout.modulemap; sourceTree = "<group>"; };
+		2E536FEF90D8E4AA95C21F52ED608576 /* LXFCardsLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXFCardsLayout.release.xcconfig; sourceTree = "<group>"; };
+		36F65DC4479EFE73300D766105B0C498 /* Pods-LXFCardsLayout_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXFCardsLayout_Tests-Info.plist"; sourceTree = "<group>"; };
+		3C7E6CA7DBB068280F6AE6F4A038F53C /* Pods-LXFCardsLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXFCardsLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3E9DF7F36A7EC76D56D207194FB707F9 /* Pods-LXFCardsLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXFCardsLayout_Example.modulemap"; sourceTree = "<group>"; };
+		5716CC557B954420EB0DD3C023FF5A8B /* Pods-LXFCardsLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXFCardsLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
+		580356BA83A0CBFE4F1BFE371CD2A75C /* Pods-LXFCardsLayout_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LXFCardsLayout_Tests"; path = Pods_LXFCardsLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8CCFDB2AA2923027AF47941AD182D0 /* Pods-LXFCardsLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXFCardsLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		61CDB15CF9BF24F38C95CD9990C8CAEC /* LXFCardsLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXFCardsLayout-dummy.m"; sourceTree = "<group>"; };
+		63A8EFF3C227D9F01469B8D666BB2F83 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6713054A7E7A9A83E35E32B7B4F9D34B /* LXFCardsLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXFCardsLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B2DDCD443EAC74EEA6E52C3F6BB3A48 /* LXFCardsLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXFCardsLayout.swift; path = LXFCardsLayout/Classes/LXFCardsLayout.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77D1600E6E8A198AC73D0BCE55EE9218 /* LXFCardsLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXFCardsLayout-umbrella.h"; sourceTree = "<group>"; };
+		78C1A731B0EDEFA77B22517ED1845E7D /* Pods-LXFCardsLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXFCardsLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B745A8C5861CB8A2CEE46B6BAC1695F /* Pods-LXFCardsLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXFCardsLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7BF2D0E58335E43B5EF8E6C3DC44E606 /* Pods-LXFCardsLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXFCardsLayout_Example-Info.plist"; sourceTree = "<group>"; };
+		8E138A598B928C073F4AD953D6FB8414 /* LXFCardsLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXFCardsLayout.debug.xcconfig; sourceTree = "<group>"; };
+		9C0246B1D28DE689FA0EE341ABBF6CD0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A651937C9669A5F1A40E5F7FF39ED778 /* Pods-LXFCardsLayout_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LXFCardsLayout_Example"; path = Pods_LXFCardsLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0664971FBE3D96C449B39F6FBA953A /* LXFCardsLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXFCardsLayout-Info.plist"; sourceTree = "<group>"; };
+		AE05413BF6A1BCA50855F1096836D74F /* Pods-LXFCardsLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXFCardsLayout_Example-dummy.m"; sourceTree = "<group>"; };
+		AE644D6F6A206A5F7D9F747F8938EE28 /* Pods-LXFCardsLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXFCardsLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C391730E892A4BE89188A1C25EBE5A92 /* Pods-LXFCardsLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXFCardsLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C84514CCAB472C1B8266B6FB973F573C /* Pods-LXFCardsLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXFCardsLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C8F5D9154B1882F49DC6802FBB9B9D1C /* Pods-LXFCardsLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXFCardsLayout_Tests-dummy.m"; sourceTree = "<group>"; };
+		CED55E4667542DDA6C732CECC3812633 /* Pods-LXFCardsLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXFCardsLayout_Tests.modulemap"; sourceTree = "<group>"; };
+		E6D6F0FB5F1DF9F509DF646C72566D27 /* LXFCardsLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXFCardsLayout-prefix.pch"; sourceTree = "<group>"; };
+		F77F867AC08F3D4E9456B8C53A9F0CE6 /* Pods-LXFCardsLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXFCardsLayout_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AE6EEBEF89730F8524D67989D872E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44A4FAEA2ADDF12C7B0D851DB34352F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FF4A1E73DE934DC07267C223E031B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA05C6F6524C73DFE1344E96D0187DC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA101740DCC9197186E54E1DD3685DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F541453372BF04F6BB47ED6D4524E10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C677E82E897543DE2C006D966E272E3 /* LXFCardsLayout */ = {
+			isa = PBXGroup;
+			children = (
+				6B2DDCD443EAC74EEA6E52C3F6BB3A48 /* LXFCardsLayout.swift */,
+				86B6801A9FC2DC2D953FDC7D9664CECC /* Pod */,
+				40FBFC222CA18583BA72E5900112D518 /* Support Files */,
+			);
+			name = LXFCardsLayout;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		40FBFC222CA18583BA72E5900112D518 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E111CA3285E2BFE9C2BA62900A629DB /* LXFCardsLayout.modulemap */,
+				61CDB15CF9BF24F38C95CD9990C8CAEC /* LXFCardsLayout-dummy.m */,
+				AC0664971FBE3D96C449B39F6FBA953A /* LXFCardsLayout-Info.plist */,
+				E6D6F0FB5F1DF9F509DF646C72566D27 /* LXFCardsLayout-prefix.pch */,
+				77D1600E6E8A198AC73D0BCE55EE9218 /* LXFCardsLayout-umbrella.h */,
+				8E138A598B928C073F4AD953D6FB8414 /* LXFCardsLayout.debug.xcconfig */,
+				2E536FEF90D8E4AA95C21F52ED608576 /* LXFCardsLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LXFCardsLayout";
+			sourceTree = "<group>";
+		};
+		4BE6FA949E51A86BC159ED86C408C0A7 /* Pods-LXFCardsLayout_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3E9DF7F36A7EC76D56D207194FB707F9 /* Pods-LXFCardsLayout_Example.modulemap */,
+				78C1A731B0EDEFA77B22517ED1845E7D /* Pods-LXFCardsLayout_Example-acknowledgements.markdown */,
+				1666290AA93E3EA4580DB1B29D426808 /* Pods-LXFCardsLayout_Example-acknowledgements.plist */,
+				AE05413BF6A1BCA50855F1096836D74F /* Pods-LXFCardsLayout_Example-dummy.m */,
+				3C7E6CA7DBB068280F6AE6F4A038F53C /* Pods-LXFCardsLayout_Example-frameworks.sh */,
+				7BF2D0E58335E43B5EF8E6C3DC44E606 /* Pods-LXFCardsLayout_Example-Info.plist */,
+				F77F867AC08F3D4E9456B8C53A9F0CE6 /* Pods-LXFCardsLayout_Example-umbrella.h */,
+				AE644D6F6A206A5F7D9F747F8938EE28 /* Pods-LXFCardsLayout_Example.debug.xcconfig */,
+				5716CC557B954420EB0DD3C023FF5A8B /* Pods-LXFCardsLayout_Example.release.xcconfig */,
+			);
+			name = "Pods-LXFCardsLayout_Example";
+			path = "Target Support Files/Pods-LXFCardsLayout_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5DBE19045954322E4C2FD9A5CC364EA7 /* Pods-LXFCardsLayout_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CED55E4667542DDA6C732CECC3812633 /* Pods-LXFCardsLayout_Tests.modulemap */,
+				1053290FF8EC1231E0D55ABC0C6AA6F7 /* Pods-LXFCardsLayout_Tests-acknowledgements.markdown */,
+				C391730E892A4BE89188A1C25EBE5A92 /* Pods-LXFCardsLayout_Tests-acknowledgements.plist */,
+				C8F5D9154B1882F49DC6802FBB9B9D1C /* Pods-LXFCardsLayout_Tests-dummy.m */,
+				36F65DC4479EFE73300D766105B0C498 /* Pods-LXFCardsLayout_Tests-Info.plist */,
+				C84514CCAB472C1B8266B6FB973F573C /* Pods-LXFCardsLayout_Tests-umbrella.h */,
+				5D8CCFDB2AA2923027AF47941AD182D0 /* Pods-LXFCardsLayout_Tests.debug.xcconfig */,
+				7B745A8C5861CB8A2CEE46B6BAC1695F /* Pods-LXFCardsLayout_Tests.release.xcconfig */,
+			);
+			name = "Pods-LXFCardsLayout_Tests";
+			path = "Target Support Files/Pods-LXFCardsLayout_Tests";
+			sourceTree = "<group>";
+		};
+		7BAF5500BAF52AAE996DC74249186323 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BE6FA949E51A86BC159ED86C408C0A7 /* Pods-LXFCardsLayout_Example */,
+				5DBE19045954322E4C2FD9A5CC364EA7 /* Pods-LXFCardsLayout_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		86B6801A9FC2DC2D953FDC7D9664CECC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				63A8EFF3C227D9F01469B8D666BB2F83 /* LICENSE */,
+				6713054A7E7A9A83E35E32B7B4F9D34B /* LXFCardsLayout.podspec */,
+				9C0246B1D28DE689FA0EE341ABBF6CD0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		87FC8B98F6D4377F479A60A7238EF3AC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C677E82E897543DE2C006D966E272E3 /* LXFCardsLayout */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BDDB2473068B1B1A0C6073F66C54F137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FC0D13FA3E7015A741C2EE689AA725F /* LXFCardsLayout */,
+				A651937C9669A5F1A40E5F7FF39ED778 /* Pods-LXFCardsLayout_Example */,
+				580356BA83A0CBFE4F1BFE371CD2A75C /* Pods-LXFCardsLayout_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				87FC8B98F6D4377F479A60A7238EF3AC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BDDB2473068B1B1A0C6073F66C54F137 /* Products */,
+				7BAF5500BAF52AAE996DC74249186323 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19B3E8F8264BAAC181DB0A3994B4FEF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BB07D34DF28219B4B29EF658715B99 /* Pods-LXFCardsLayout_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A33F2DE1640D262F4F8BE2DF129549 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92469FA15871B136AA8EF62D06231559 /* Pods-LXFCardsLayout_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0665BFBCEE4AD56075360F1CC44D49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1087443E098D0471000CB3DDEF9E776A /* LXFCardsLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		49E1166C618FB02DDDC5F376C5568A1B /* Pods-LXFCardsLayout_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EACB32BA59FD15B2DA5B6285010DEBE /* Build configuration list for PBXNativeTarget "Pods-LXFCardsLayout_Tests" */;
+			buildPhases = (
+				19B3E8F8264BAAC181DB0A3994B4FEF0 /* Headers */,
+				32CF37534AFDBF0A731EF5992977724C /* Sources */,
+				BA101740DCC9197186E54E1DD3685DDF /* Frameworks */,
+				97B33A48929F0ED8531A69B94BF848E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBAF256761B2637EA778606AC2D10399 /* PBXTargetDependency */,
+			);
+			name = "Pods-LXFCardsLayout_Tests";
+			productName = Pods_LXFCardsLayout_Tests;
+			productReference = 580356BA83A0CBFE4F1BFE371CD2A75C /* Pods-LXFCardsLayout_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE00099E62DF6E6A05ABBE1B4B0CCA4D /* LXFCardsLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6271A442C2C3CD56D4E31ED00BBD1515 /* Build configuration list for PBXNativeTarget "LXFCardsLayout" */;
+			buildPhases = (
+				6D0665BFBCEE4AD56075360F1CC44D49 /* Headers */,
+				E4C7B2AA6603F3A59F4D163EE60185E1 /* Sources */,
+				1AE6EEBEF89730F8524D67989D872E90 /* Frameworks */,
+				2A1A4117F35E72ABD773CB6015EB67D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXFCardsLayout;
+			productName = LXFCardsLayout;
+			productReference = 0FC0D13FA3E7015A741C2EE689AA725F /* LXFCardsLayout */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE71E4699367A59EF09821F57C4DCAC0 /* Pods-LXFCardsLayout_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65BB77D75D99D91B0C882C88BB70875 /* Build configuration list for PBXNativeTarget "Pods-LXFCardsLayout_Example" */;
+			buildPhases = (
+				41A33F2DE1640D262F4F8BE2DF129549 /* Headers */,
+				C93DAA25E4FAF85079AB998B087BDC38 /* Sources */,
+				83FF4A1E73DE934DC07267C223E031B1 /* Frameworks */,
+				5C22A7F818E5EF7744BFAA4BF6793A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800E3DE693B2F396619B1E112C1806F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-LXFCardsLayout_Example";
+			productName = Pods_LXFCardsLayout_Example;
+			productReference = A651937C9669A5F1A40E5F7FF39ED778 /* Pods-LXFCardsLayout_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BDDB2473068B1B1A0C6073F66C54F137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE00099E62DF6E6A05ABBE1B4B0CCA4D /* LXFCardsLayout */,
+				EE71E4699367A59EF09821F57C4DCAC0 /* Pods-LXFCardsLayout_Example */,
+				49E1166C618FB02DDDC5F376C5568A1B /* Pods-LXFCardsLayout_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A1A4117F35E72ABD773CB6015EB67D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C22A7F818E5EF7744BFAA4BF6793A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97B33A48929F0ED8531A69B94BF848E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32CF37534AFDBF0A731EF5992977724C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F170ABD1F0C4637EC1391AF4679C5B6 /* Pods-LXFCardsLayout_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C93DAA25E4FAF85079AB998B087BDC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA47A70B32A20510B6D35DCCA270C0E4 /* Pods-LXFCardsLayout_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C7B2AA6603F3A59F4D163EE60185E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD49663F2067274D3D350364F787A1AB /* LXFCardsLayout.swift in Sources */,
+				2167B1A3ED389F7A592ECB14F7E90C30 /* LXFCardsLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		800E3DE693B2F396619B1E112C1806F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LXFCardsLayout;
+			target = EE00099E62DF6E6A05ABBE1B4B0CCA4D /* LXFCardsLayout */;
+			targetProxy = 27E443928EDBE3392EAD4AE30A5D5737 /* PBXContainerItemProxy */;
+		};
+		BBAF256761B2637EA778606AC2D10399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LXFCardsLayout_Example";
+			target = EE71E4699367A59EF09821F57C4DCAC0 /* Pods-LXFCardsLayout_Example */;
+			targetProxy = F060B8407022ABEF1D8CCE5F897AD6AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17E47414CBA65171056E5FFD791A72A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE644D6F6A206A5F7D9F747F8938EE28 /* Pods-LXFCardsLayout_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXFCardsLayout_Example/Pods-LXFCardsLayout_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXFCardsLayout_Example/Pods-LXFCardsLayout_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		33B150D874D1BB8084F3B1DB815D23B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B745A8C5861CB8A2CEE46B6BAC1695F /* Pods-LXFCardsLayout_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXFCardsLayout_Tests/Pods-LXFCardsLayout_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXFCardsLayout_Tests/Pods-LXFCardsLayout_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A050A647CBE774E9F1F00939B0BF68F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8CCFDB2AA2923027AF47941AD182D0 /* Pods-LXFCardsLayout_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXFCardsLayout_Tests/Pods-LXFCardsLayout_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXFCardsLayout_Tests/Pods-LXFCardsLayout_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A52B740815B76E9BCA8AE2D81F5D9507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5716CC557B954420EB0DD3C023FF5A8B /* Pods-LXFCardsLayout_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXFCardsLayout_Example/Pods-LXFCardsLayout_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXFCardsLayout_Example/Pods-LXFCardsLayout_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB5833FDD2EB2F1966DFD1546704C22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E138A598B928C073F4AD953D6FB8414 /* LXFCardsLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXFCardsLayout/LXFCardsLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXFCardsLayout/LXFCardsLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LXFCardsLayout/LXFCardsLayout.modulemap";
+				PRODUCT_MODULE_NAME = LXFCardsLayout;
+				PRODUCT_NAME = LXFCardsLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E0EA277A912D0DCBB843506C438E8C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E536FEF90D8E4AA95C21F52ED608576 /* LXFCardsLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXFCardsLayout/LXFCardsLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXFCardsLayout/LXFCardsLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LXFCardsLayout/LXFCardsLayout.modulemap";
+				PRODUCT_MODULE_NAME = LXFCardsLayout;
+				PRODUCT_NAME = LXFCardsLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EACB32BA59FD15B2DA5B6285010DEBE /* Build configuration list for PBXNativeTarget "Pods-LXFCardsLayout_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A050A647CBE774E9F1F00939B0BF68F1 /* Debug */,
+				33B150D874D1BB8084F3B1DB815D23B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6271A442C2C3CD56D4E31ED00BBD1515 /* Build configuration list for PBXNativeTarget "LXFCardsLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5833FDD2EB2F1966DFD1546704C22B /* Debug */,
+				E0EA277A912D0DCBB843506C438E8C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65BB77D75D99D91B0C882C88BB70875 /* Build configuration list for PBXNativeTarget "Pods-LXFCardsLayout_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E47414CBA65171056E5FFD791A72A2 /* Debug */,
+				A52B740815B76E9BCA8AE2D81F5D9507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

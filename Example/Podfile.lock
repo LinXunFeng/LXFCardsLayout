@@ -1,0 +1,16 @@
+PODS:
+  - LXFCardsLayout (0.0.1)
+
+DEPENDENCIES:
+  - LXFCardsLayout (from `../`)
+
+EXTERNAL SOURCES:
+  LXFCardsLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LXFCardsLayout: 36e5532f221e5a771238266a3b1b6f3d82f6b8d6
+
+PODFILE CHECKSUM: 1740502bfb482b89c28504ac98e9712b11556ed9
+
+COCOAPODS: 1.11.2

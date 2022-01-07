@@ -1,0 +1,6 @@
+framework module Pods_LXFCardsLayout_Tests {
+  umbrella header "Pods-LXFCardsLayout_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

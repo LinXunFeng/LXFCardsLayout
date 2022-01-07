@@ -1,0 +1,22 @@
+{
+  "name": "LXFCardsLayout",
+  "version": "0.0.1",
+  "summary": "A short description of LXFCardsLayout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/林洵锋/LXFCardsLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LinXunFeng": "linxunfeng@yeah.net"
+  },
+  "source": {
+    "git": "https://github.com/LinXunFeng/LXFCardsLayout.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LXFCardsLayout/Classes/**/*"
+}

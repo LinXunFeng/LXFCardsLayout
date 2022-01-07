@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LXFCardsLayout_Example' do
+  pod 'LXFCardsLayout', :path => '../'
+
+  target 'LXFCardsLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
