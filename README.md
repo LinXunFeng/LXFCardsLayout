@@ -22,7 +22,7 @@ pod 'LXFCardsLayout'
 
 ## Author
 
-LinXunFeng, lxf@addcn.com
+LinXunFeng, linxunfeng@yeah.net
 
 ## License
 
