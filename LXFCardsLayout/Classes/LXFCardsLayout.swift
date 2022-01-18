@@ -10,14 +10,17 @@ import UIKit
 open class LXFCardsLayout: UICollectionViewLayout {
     
     // MARK: - Layout configuration
+    /// item的大小
     public var itemSize: CGSize = CGSize(width: 200, height: 300) {
         didSet { invalidateLayout() }
     }
 
+    /// item间的空隙
     public var spacing: CGFloat = 10.0 {
         didSet { invalidateLayout() }
     }
 
+    /// 最大可见个数
     public var maximumVisibleItems: Int = 4 {
         didSet { invalidateLayout() }
     }
