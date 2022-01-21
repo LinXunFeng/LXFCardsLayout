@@ -44,13 +44,16 @@ class ViewController: UIViewController {
         self.initUI()
     }
 
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print("currentPage -- \(self.listViewLayout.getCurrentPage())")
+    }
 }
 
 extension ViewController {
     fileprivate func initUI() {
         self.view.addSubview(self.listView)
         
-        self.listView.frame = self.view.bounds
+        self.listView.frame = CGRect(x: 0, y: 200, width: self.view.bounds.size.width, height: 200)
         self.listView.dataSource = self
         self.listView.delegate = self
     }
@@ -72,6 +75,15 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("indexPath -- \(indexPath)")
+        
+        self.listViewLayout.setCurrentPage(with: 1)
+    }
+}
+
+// MARK: - UIScrollViewDelegate
+extension ViewController: UIScrollViewDelegate {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        print("contentOffset -- \(scrollView.contentOffset)")
     }
 }
 
