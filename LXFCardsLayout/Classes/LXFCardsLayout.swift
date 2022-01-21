@@ -25,6 +25,13 @@ open class LXFCardsLayout: UICollectionViewLayout {
         didSet { invalidateLayout() }
     }
     
+    /// 缩放因子
+    public var scaleFactor: CGFloat = 0.95 {
+        didSet { invalidateLayout() }
+    }
+    
+    public private(set) var isAnimating: Bool = false
+    
     // MARK: UICollectionViewLayout
 
     override open var collectionViewContentSize: CGSize {
@@ -78,18 +85,39 @@ open class LXFCardsLayout: UICollectionViewLayout {
     }
 }
 
+// MARK: - Private Method
+extension LXFCardsLayout {
+    /// 设置当前页码
+    public func setCurrentPage(
+        with page: Int,
+        animated: Bool = true
+    ) {
+        let width = self.collectionView?.bounds.size.width ?? 0
+        let offset = CGPoint(x: width * Double(page), y: 0)
+        self.collectionView?.setContentOffset(offset, animated: animated)
+    }
+    
+    /// 获取当前页码
+    public func getCurrentPage() -> Int {
+        let width = self.collectionView?.bounds.size.width ?? 0
+        let offsetX = self.collectionView?.contentOffset.x ?? 0
+        if width == 0 { return 0 }
+        return Int(offsetX / width)
+    }
+}
 
 // MARK: - Layout computations
 
 fileprivate extension LXFCardsLayout {
     
     private func scale(at index: Int) -> CGFloat {
-        let translatedCoefficient = CGFloat(index) - CGFloat(self.maximumVisibleItems) / 2
-        return CGFloat(pow(0.95, translatedCoefficient))
+        if index == 0 { return 1.0 }
+        let translatedCoefficient = CGFloat(index)
+        return CGFloat(pow(self.scaleFactor, translatedCoefficient))
     }
 
     private func transform(atCurrentVisibleIndex visibleIndex: Int, percentageOffset: CGFloat) -> CGAffineTransform {
-        var rawScale = visibleIndex < maximumVisibleItems ? scale(at: visibleIndex) : 1.0
+        var rawScale = scale(at: visibleIndex)
 
         if visibleIndex != 0 {
             let previousScale = scale(at: visibleIndex - 1)
@@ -112,9 +140,10 @@ fileprivate extension LXFCardsLayout {
         
         let visibleIndex = indexPath.row - minVisibleIndex
         attributes.size = itemSize
+        let offsetX = (itemSize.width - itemSize.width * self.scale(at: visibleIndex)) * 0.5
         let midY = collectionView.bounds.midY
         attributes.center = CGPoint(
-            x: contentCenterX + spacing * CGFloat(visibleIndex),
+            x: contentCenterX + offsetX + spacing * CGFloat(visibleIndex),
             y: midY
         )
         attributes.zIndex = maximumVisibleItems - visibleIndex
@@ -130,7 +159,9 @@ fileprivate extension LXFCardsLayout {
             attributes.center.x -= deltaOffset
             break
         case 1..<maximumVisibleItems:
-            attributes.center.x -= spacing * percentageDeltaOffset
+            // 下标为1及以上的，offsetX以1为准
+            let secondVisibleItemOffsetX = (itemSize.width - itemSize.width * self.scale(at: 1)) * 0.5
+            attributes.center.x -= (secondVisibleItemOffsetX + spacing) * percentageDeltaOffset
             if visibleIndex == maximumVisibleItems - 1 {
                 attributes.alpha = percentageDeltaOffset
             }
